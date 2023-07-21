@@ -130,13 +130,13 @@ ul {
   border-radius: 10px;
 }
 
-.list.checked:after {
+.list.checked::after {
   content: '';
   display: block;
   position: absolute;
   top: 50%;
-  left: 12%;
-  width: 76%;
+  left: 10%;
+  width: 78%;
   height: 1px;
   background-color: hotpink;
 }
@@ -149,7 +149,7 @@ ul {
   display: flex;
   align-items: center;
   gap: .5rem;
-  width: 68%;
+  width: 62%;
 
 }
 
@@ -193,7 +193,7 @@ ul {
 
 .list-price {
   display: block;
-  min-width: 22%;
+  min-width: 30%;
   text-align: right;
 }
 
@@ -297,9 +297,9 @@ ul {
   .list {
     padding: 1rem;
   }
-  .list.checked:after {
-    left: 10%;
-    width: 78%;
+  .list.checked::after {
+    left: 10.5%;
+    width: 78.5%;
   }
   .lists-price {
     font-size: 1.3rem;
@@ -373,6 +373,11 @@ ul {
     width: 104px;
     height: 29px;
     background: center / contain no-repeat url(./images/iphone-camera-area.png);
+  }
+
+  /* SHOPPING LISTS */
+  .list.checked::after {
+    left: 11.5%;
   }
 
   /* SHOPPING CATEGORY */
